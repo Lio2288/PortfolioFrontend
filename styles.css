@@ -1,0 +1,17 @@
+#primer-cuadro {
+    border-radius: 32px;
+    margin: 10px 10px;
+    padding: 20px;
+    border-color: #0a66c2;
+}
+
+
+.mat-card#primer-cuadro{
+padding: 0px;
+}
+
+
+div#profile-fondo{
+    display: flex;
+    z-index: 1;
+    }
