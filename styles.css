@@ -3,16 +3,15 @@ body {
 }
 
 .contenedor-fotos{
-    width: 60%;
-    height: 60%;
+    width: 50%;
     background-color: hsl(0, 0%, 100%);
-    margin: 10px 20% 10px;
-    padding: 0px;
+    margin: 10px 25% 10px;
     border-top: 1px solid rgb(158, 147, 147);
     border-right: 1px solid rgb(158, 147, 147);
     border-bottom: 1px solid rgb(158, 147, 147);
     border-left: 1px solid rgb(158, 147, 147);
     border-radius: 20px;
+    overflow: hidden;
     }
 
 .contenedor-datos{
@@ -23,11 +22,10 @@ body {
 
 
 .contenedor{
-    width: 60%;
-    height: 60%;
+    width: 50%;
     background-color: hsl(0, 0%, 100%);
-    margin: 10px 20% 10px;
-    padding: 0px 10px 5px;
+    margin: 10px 25% 0px;
+    padding: 10px 13px 0px 10px;
     border-top: 1px solid rgb(158, 147, 147);
     border-right: 1px solid rgb(158, 147, 147);
     border-bottom: 1px solid rgb(158, 147, 147);
@@ -78,8 +76,12 @@ body {
 }
 
 
-.titulo-contenedor{
-    
+.contenedor-titulos{
+    position: relative;
+    margin: 40px 0px 0px 25.5%;
+    }
+
+.titulo{
     font-size: 30px;
     font-weight: 500;
     color: rgb(0, 0, 0)
@@ -91,3 +93,8 @@ body {
     }
 
 
+.footer{
+    position: relative;
+    text-align: center;
+    margin: 5% 0px 0px 10px;
+    }
