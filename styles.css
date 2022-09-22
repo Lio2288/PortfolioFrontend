@@ -57,8 +57,9 @@ body{background-color: rgb(242, 242, 242) !important;
 
  .editar-foto{
 
-    position: relative;
-    margin: 0px 2% 0px 2%;
+    height: 2%; 
+    position: absolute;
+    margin: 10px 0px 0px 1%;
 
 }
 
